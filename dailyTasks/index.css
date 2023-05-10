@@ -1,0 +1,175 @@
+/* Define global styles for the page */
+* {
+/*Box model stuff*/
+    margin: 0;
+    padding: 0;
+/*Miscellaneous*/
+    box-sizing: border-box;
+}
+
+body {
+/*Box model stuff*/
+    padding-top: 100px;
+    background-color: #7c736564;
+/*Typography stuff*/
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+/*Box model stuff*/
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+/*Miscellaneous*/
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+/*Positioning stuff*/
+    position: fixed;
+    bottom: 0;
+/*Box model stuff*/
+    width: 100%;
+    height: 150px;
+    padding: 50px;
+    background: rgba(68, 73, 75, 0.528);
+/*Typography stuff*/
+    text-align: center;
+/*Miscellaneous*/
+    /* Height of the footer */
+
+}
+
+.footer-link1 {
+/*Box model stuff*/
+    padding-right: 20px;
+/*Typography stuff*/
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.my-cr {
+/*Box model stuff*/
+    padding-top: 15px;
+}
+
+h1 {
+/*Box model stuff*/
+    margin-bottom: 100px;
+/*Typography stuff*/
+    text-align: center;
+}
+
+h2 {
+/*Box model stuff*/
+    margin-bottom: 10px;
+}
+
+form {
+/*Display stuff*/
+    display: flex;
+    align-items: center;
+/*Box model stuff*/
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+/*Display stuff*/
+    flex: 1;
+/*Box model stuff*/
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+/*Typography stuff*/
+    font-size: 16px;
+}
+
+button[type="submit"] {
+/*Box model stuff*/
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+/*Typography stuff*/
+    font-size: 16px;
+    color: white;
+/*Manipulations stuff*/
+    transition: background-color 0.2s ease-in-out;
+/*Miscellaneous*/
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+/*Box model stuff*/
+    background-color: #3E8E41;
+}
+
+.taskListTable {
+/*Box model stuff*/
+    width: 100%;
+    min-width: 250px;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    border-collapse: collapse;
+/*Typography stuff*/
+    text-align: left;
+}
+
+.taskListTable td,
+.taskListTable th {
+/*Box model stuff*/
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+}
+
+.taskListTable th {
+/*Box model stuff*/
+    background-color: #ddd;
+/*Typography stuff*/
+    font-weight: bold;
+}
+
+.taskListTable td {
+/*Box model stuff*/
+    background-color: white;
+}
+
+.removeButton,
+.updateButton {
+/*Display stuff*/
+    display: inline-block;
+/*Box model stuff*/
+    margin-left: 10px;
+    border: none;
+    background-color: transparent;
+/*Typography stuff*/
+    font-size: 15px;
+    font-weight: bolder;
+    color: #831919;
+/*Manipulations stuff*/
+    transition: color 0.2s ease-in-out;
+/*Miscellaneous*/
+    cursor: pointer;
+}
+
+.removeButton:hover,
+.updateButton:hover {
+/*Typography stuff*/
+    color: #f44336;
+}
+
+.updateButton {
+/*Typography stuff*/
+    color: #2196F3;
+}
+
+.updateButton:hover {
+/*Typography stuff*/
+    color: #0D47A1;
+}
